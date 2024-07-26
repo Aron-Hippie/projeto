@@ -79,12 +79,16 @@ body * {
   animation: slide-out 0.3s;
 }
 
+#switch button:hover {
+  outline: 5px solid var(--highlight-color);
+}
+
 .light #switch button {
   animation: slide-in 0.3s forwards;
 }
 
-#switch button:hover {
-  outline: 6px solid var(--highlight-color);
+.light #switch button:hover {
+  outline: 5px solid var(--stroke-color);
 }
 
 #switch span {
