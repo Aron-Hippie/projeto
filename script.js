@@ -5,7 +5,6 @@ function toggleMode() {
   //pegar a tag img
   const img = document.querySelector("#profile img")
   const catName = document.querySelector("#catName")
-  console.log("catName" + catName)
 
   //Substituir a Imagem
   if (html.classList.contains("light")) {
